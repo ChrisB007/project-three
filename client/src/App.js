@@ -1,5 +1,6 @@
 import React from 'react';
 import JumboText from './components/JumboText/JumboText';
+import JumboTextTwo from './components/JumboText/JumboTextTwo';
 import Body from './components/Body/Body';
 import HeaderNavbar from './components/Header/Navbar/HeaderNav';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -23,19 +24,19 @@ function App() {
 
         <Route path="/questions">
           <HeaderNavbar />
-          <JumboText />
+          <JumboTextTwo />
           <Questions />
         </Route>
 
         <Route path="/jobs">
           <HeaderNavbar />
-          <JumboText />
+          <JumboTextTwo />
           <Jobs />
         </Route>
 
         <Route path="/signup">
           <HeaderNavbar />
-          <JumboText />
+          <JumboTextTwo />
           <UserAuth />
         </Route>
         </>
