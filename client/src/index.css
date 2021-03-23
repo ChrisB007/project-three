@@ -18,7 +18,7 @@ a.nav-link {
 }
 
 img#logo {
-    width: 287px;
+    width: 228px;
     border-radius: 20px;
 }
 
@@ -53,13 +53,15 @@ div#navbarColor1 {
     font-size: 6rem;
     background-image: linear-gradient(to right bottom, #000000, #0e0e0e, #181818, #202020, #282828);
     color: #fff;
-    width: 597px;
+    width: 795px;
     text-align: center;
-    height: 523px;
+    background-image: url(https://techcrunch.com/wp-content/uploads/2021/03/Apple_expands-free-professional-learning-to-help-teachers-champion-creativity_032321_big.jpg.large_2x.jpg?w=1390&crop=1);
+    height: 533px;
     opacity: 0.7;
+    background-size: contain;
+    background-repeat: no-repeat;
     text-shadow: 2px 2px 4px #000000;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    /* filter: blur(10px); */
 }
 
 .row.rowstyles {
@@ -97,6 +99,44 @@ div#navbarColor1 {
 
 #mediabody{
     height: 820px;
+}
+
+
+/* Login Form */
+
+form#loginform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+h2.logintitle {
+    position: relative;
+    margin-top: 20px;
+}
+
+.form-group {
+    width: 36%;
+}
+
+button.btn.btn-primary {
+    margin-bottom: 50px;
+    width: 200px;
+}
+
+.form-control {
+    width: 475px !important;
+}
+
+div#signmeup {
+    background-color: aliceblue;
+    border-bottom-left-radius: 16px;
+}
+div#logmein {
+    background-color: #EEEEEE;
+    border-bottom-right-radius: 16px;
 }
 
 
